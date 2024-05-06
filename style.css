@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family: "Gemunu Libre", sans-serif;
+}
+body {
+    background: linear-gradient(to bottom right, #5D13E7, #8249B5);
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fbfbfb;
+    padding: 12px;
+}
+.quote-box {
+    display: flex;
+    flex-direction: column;
+
+}
+p {
+    color: #323232;
+    font-size: 20px;
+    letter-spacing: 0.6px
+}
+.author {
+    font-size: 16px;
+    color: rgba(50, 50, 50, 0.7);
+    align-self: flex-end;
+}
+.actions-box {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+.generate {
+    flex-grow: 1;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background-image: linear-gradient(to bottom right, #5D13E7, #8249B5);
+    color: #fbfbfb;
+    border: none;
+}
+.copy {
+    font-size: 16px;
+    color: #8249B5;
+    border: 2px solid #8249B5;
+    padding: 10px;
+}
+.copy svg {
+    width: 24px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    cursor: pointer;
+}
